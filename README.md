@@ -54,36 +54,32 @@ Personal Portfolio Project | Python Data Management System | Data Analysis Appli
 You need to install required Python libraries before running the project.
 
 #### Simple Method:
-> pip install pandas matplotlib openpyxl
+```
+pip install pandas matplotlib openpyxl
+```
 
----
-#### Professional Method:
-
-Create a file named `requirements.txt` in your project folder and 
-add:
-> pandas
-> matplotlib
-> openpyxl
-
-Then install dependencies using:
-> pip install -r requirements.txt
-
----
-
-## Run the Application
-
-To start the project, 
-run:
-> python student.py
-
----
+#### Professional Method
+```
+Create requirements.txt:
+pandas
+matplotlib
+openpyxl
+```
+#### Install dependencies:
+```
+pip install -r requirements.txt
+```
+#### Run the Project
+```
+python student.py
+```
+--- 
 ## Output Description
 - Student data stored in SQLite database (students.db) 
 - Excel report generated automatically (students_report.xlsx)
 - Charts generated:
-- Bar chart → marks_graph.png
-- Pie chart → marks_pie_chart.png
-
+  - Bar chart → marks_graph.png
+  - Pie chart → marks_pie_chart.png
 ---
 ## Key Skills Demonstrated
 - Python programming
@@ -97,3 +93,8 @@ run:
 ## Author
 
 Pinninti Usha Sri
+
+---
+
+## Note
+This project was developed as a self-initiative learning project to strengthen Python, database, and data visualization skills.
